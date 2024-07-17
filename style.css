@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background: #fefefe;
+}
+
+header {
+  width: 100%;
+  background-image: linear-gradient(to right, #dc143c, #ff007f);
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  gap: 6px;
+}
+
+nav img {
+  width: 30px;
+}
+
+nav a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main {
+  padding: 4px;
+}
+
+main h1 {
+  font-size: 20px;
+  color: #ff007f;
+  margin: 16px 0;
+  padding-left: 10px;
+  border-left: 2px solid #ff007f;
+}
+
+main .daftar-produk {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.daftar-produk .produk {
+  width: calc(100% / 2 - 4px);
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 0 4px 0 #cacaca;
+}
+
+.produk img {
+  width: 100%;
+}
+
+.produk p:nth-child(2) {
+  font-size: 14px;
+  padding: 6px;
+  color: rgb(63, 63, 63);
+}
+.produk span:nth-child(3) {
+  font-size: 14px;
+  padding: 6px;
+  color: rgb(63, 63, 63);
+}
+
+.produk p:nth-child(4) {
+  font-size: 16px;
+  padding: 6px;
+  color: #ff007f;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+.produk p:nth-child(4) span {
+  font-weight: normal;
+  color: #cacaca;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  text-align: center;
+  padding: 6px;
+}
+
+section p {
+  color: #cacaca;
+  font-size: 14px;
+}
+
+footer {
+  background-image: linear-gradient(to right, #dc143c, #ff007f);
+  width: 100%;
+  padding: 1rem;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
